@@ -466,7 +466,7 @@ body {
   padding-bottom: 150px;
 }
 .main-inner {
-  margin: 0 auto;
+  margin: -100px auto;
   width: 700px;
 }
 @media (min-width: 1600px) {
@@ -475,11 +475,11 @@ body {
   }
 }
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  min-height: 50px;
+  min-height: 3%;
 }
 .footer-inner {
   box-sizing: border-box;
@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bf1304;
+  background: #b4162f;
 }
 .links-of-blogroll {
   font-size: 13px;
